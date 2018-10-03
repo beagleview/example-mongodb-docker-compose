@@ -9,7 +9,7 @@ services:
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: example
-      MONGODB_DATABASE: "mydatabase"
+      MONGO_INITDB_DATABASE: mydatabase
       MONGO_DATA_DIR: /data/db
     volumes:
       - ./data/db:/data/db
